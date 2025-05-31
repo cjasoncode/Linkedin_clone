@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in page</title>
+    <link rel="stylesheet" href= "sign_in.css">
+</head>
+
+<body>
+
+    
+    <div class="sign_card">
+        <header>
+            
+            <figure>
+        
+                <a href="https://api.linkedin.com/?_l=en_US" ><img src="https://ccpi.ac.uk/wp-content/webpc-passthru.php?src=https://ccpi.ac.uk/wp-content/uploads/2022/06/Linkedin-Logo.png&nocache=1" alt="" >
+                    
+        </a>
+            </figure>
+            
+            <hgroup>
+                <h2>Sign in</h2>
+            </hgroup>
+            
+            <small>Stay updated on your professional world</small>
+            
+            <form>
+                
+                <label for="email"></label>
+                <input type="email"placeholder="Email or phone" name="email" id="email">
+                <label for="password"></label>
+                <input type="password" placeholder="Password" name="password" id="password">
+                <button type="button" class="forgot" onclick="window.location.href = 'https://api.linkedin.com/checkpoint/rp/request-password-reset'; "<em>Forgot password?</em></button>
+                <label for="Remember_me" class="Remember_me_text">
+                <input type="checkbox" class="Remember_me" id="Remember_me">Keep me logged in</label>
+                <button type="submit">Sign in</button>
+                
+            </form>
+        </header>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,141 @@
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+}
+
+
+.forgot {
+    color: #0837d1;
+    background-color: #ffffff00; 
+    width: 120px;
+    height: 30px;
+    position: relative;
+    top: -26px;
+    left: -7px;
+    
+
+}
+
+
+.forgot:hover{
+    background-color: #7dcbf87e;
+}
+
+
+img {
+    position: fixed;
+    top: 33px;
+    /* distance from top */
+    left: 53px;
+    /* distance from left */
+    height: 4.5vh;
+    width: 17vh;
+    margin: 0;
+    /* remove big margins */
+    display: block;
+    z-index: 1000;
+    background: #ffffff;
+
+
+}
+
+.sign_card {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+    width: 300px;
+    height: 380px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15)
+
+
+
+
+}
+
+h2 {
+    text-align: left;
+
+}
+
+small {
+    text-align: left;
+    margin-top: -12px;
+    margin-bottom: 18px;
+    display: block;
+
+}
+
+input {
+    padding: 13px;
+    border-radius:4px;
+    border: 1px solid rgb(0, 0, 0);
+    background: #ffffff;
+    margin-bottom: 20px;
+    
+
+
+}
+
+
+
+button {
+    
+    border-radius: 35px;
+    color: #ffffff;
+    background-color: #0a66c2;
+    width: 300px;
+    height: 50px;
+    border: none;
+    margin-top: 10px;
+    position: relative;
+    top: -20px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    
+}
+
+button:hover {
+    background-color: #004182;
+}
+ 
+
+ input.Remember_me{
+    
+     height: 20px;
+     width: 20px;
+     position: relative;
+     top: -5px;
+     left: -6px;
+     
+      
+     
+ }
+
+ input::placeholder{
+
+    font-size: 16px;
+    text-align:left;
+
+
+ }
+ .Remember_me_text {
+    display: flex;
+    font-size: 15px;
+    position: relative;
+    top: -30px;  
+    left: 2px;
+    margin-top: 6px;
+}
