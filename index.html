@@ -30,17 +30,25 @@
             <form>
                 
                 <label for="email"></label>
-                <input type="email"placeholder="Email or phone" name="email" id="email">
+                <input type="email"placeholder="Email or phone" name="email" id="email" class="border">
                 <label for="password"></label>
-                <input type="password" placeholder="Password" name="password" id="password">
+                <input type="password" placeholder="Password" name="password" id="password" class="border">
                 <button type="button" class="forgot" onclick="window.location.href = 'https://api.linkedin.com/checkpoint/rp/request-password-reset'; "<em>Forgot password?</em></button>
                 <label for="Remember_me" class="Remember_me_text">
                 <input type="checkbox" class="Remember_me" id="Remember_me">Keep me logged in</label>
                 <button type="submit">Sign in</button>
+                <label for="Join" class="join">
+                <big>New to LinkedIn? </big> <a href="https://api.linkedin.com/signup/cold-join?_l=en_US"><button type="button" class="join_button">Join now</button> </a> 
+                </label>
                 
             </form>
+
+             
         </header>
     </div>
+
+
+     
 </body>
 
 </html>
