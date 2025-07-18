@@ -47,7 +47,7 @@ It focuses on **UI design**, **form layout**, and **responsive design**.
 ---
 
 ## 🚀 Live Demo
-🔗 [View Project on GitHub Pages](cjasoncode.github.io/Linkedin_clone/)
+🔗 [View Project on GitHub Pages](https://cjasoncode.github.io/Linkedin_clone/)
 
 ---
 
