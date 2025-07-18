@@ -193,9 +193,11 @@ button:hover {
 }
 
 .join_button:hover{
+    
     background-color: #7dcbf87e;
     text-decoration: underline;
     position: relative;
+     
 
     
 }
